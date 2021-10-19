@@ -910,7 +910,7 @@ anus = sender
 uwu = '```'
 var menu = ` 𝙄𝙉𝙁𝙊
 
-*Name : @${anus.split("@")[0]}*
+*Name :* @${anus.split("@")[0]}
 *Prefix : ${prefi}*
 *Speed : ${latensi.toFixed(4)} Second*
 *Bot Mode : ${banChats ? "SELF-MODE" : "PUBLIC-MODE"}*
@@ -1238,7 +1238,7 @@ buttons = [{buttonId: `${prefix}owner`,buttonText:{displayText: '𝗦𝗔𝗟�
 
                buttonsMessage = {
                contentText: `${menu}`,
-               footerText: '\`\`\`Simple bot whatsapp By FisaL\`\`\`', imageMessage: imageMsg,
+               footerText: '\`\`\`Simple Bot Whatsapp By FisaL\`\`\`', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
